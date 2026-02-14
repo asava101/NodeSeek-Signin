@@ -68,4 +68,5 @@ jobs:
           TG_USER_ID: ${{ secrets.TG_USER_ID }}
           TG_THREAD_ID: ${{ secrets.TG_THREAD_ID }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
+          SKIP_PUSH_TITLE: ${{ secrets.SKIP_PUSH_TITLE }}
         run: python nodeseek_sign.py
